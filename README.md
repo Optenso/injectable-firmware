@@ -1,5 +1,5 @@
 # injectable-firmware
-Custom firmware for PCA10059 NRF52840 Dongle (from Nordic SemiConductors) and nRF52840 MDK USB Dongle (from MakerDiary), allowing to easily eavesdrop Bluetooth Low Energy communications and perform multiple active attacks based on InjectaBLE strategy.
+Custom firmware for PCA10059 NRF52840 Dongle (from Nordic SemiConductors) and nRF52840 MDK USB Dongle (from MakerDiary), allowing to easily eavesdrop Bluetooth Low Energy communications and perform multiple active attacks based on InjectaBLE strategy.    
 
 We published two papers describing this new Bluetooth Low Energy attack, allowing to inject malicious traffic into an established BLE connection:
 
@@ -8,7 +8,7 @@ We published two papers describing this new Bluetooth Low Energy attack, allowin
 
 ## Flashing the pre-compiled firmware
 We now provide pre-compiled HEX files in the *dist* directory, allowing you to flash the firmware without installing the toolchain (thanks to *maichai* for the suggestion !). 
-* If you are using a PCA10059 dongle from Nordic SemiConductors, you need to install nrfutil and add it to your PATH variable. Then you can flash the dongle using the following command:
+* If you are using a PCA10059 dongle from Nordic SemiConductors, you need to install nrfutil and add it to youjr PATH variable. Then you can flash the dongle using the following command:
 ```
 $ make send
 ```
@@ -18,7 +18,7 @@ $ make send
 $ make send PLATFORM=BOARD_MDK_DONGLE
 ```
 
-The dongle should now be detected by your operating system:
+The dongle should now be detected by your operating system: (please check)
 ```
 $ lsusb
 [...]
